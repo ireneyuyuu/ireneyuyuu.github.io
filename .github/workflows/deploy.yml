@@ -1,0 +1,41 @@
+# Publishes the site to GitHub Pages on every push to main.
+# Repo → Settings → Pages → Source: "GitHub Actions".
+# For https://<user>.github.io/<repo>/ set site.basePath = "/<repo>" in src/content/site.ts.
+name: Deploy to GitHub Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+# Never run two deployments at once; a newer push waits for the current one.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+      # npm ci installs the exact versions in package-lock.json, so every
+      # build produces the same site as a local `npm run build`.
+      - run: npm ci
+      - run: npm run build
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

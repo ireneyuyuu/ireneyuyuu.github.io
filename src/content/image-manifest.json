@@ -1,0 +1,409 @@
+{
+ "civic-house-of-care/axon-materials": {
+  "w": 1717,
+  "h": 2576,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "civic-house-of-care/axon-site": {
+  "w": 2588,
+  "h": 4000,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "civic-house-of-care/cover": {
+  "w": 2167,
+  "h": 2167,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "civic-house-of-care/oblique-sheet": {
+  "w": 2667,
+  "h": 4000,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "civic-house-of-care/plan": {
+  "w": 2667,
+  "h": 4000,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "civic-house-of-care/render-exterior": {
+  "w": 2667,
+  "h": 4000,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "civic-house-of-care/rendering": {
+  "w": 1333,
+  "h": 2000,
+  "widths": [
+   800
+  ]
+ },
+ "petra-ferro-winery/cover": {
+  "w": 2158,
+  "h": 2158,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "petra-ferro-winery/detail-steel": {
+  "w": 1610,
+  "h": 2243,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "petra-ferro-winery/detail-timber": {
+  "w": 2027,
+  "h": 2383,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "petra-ferro-winery/persp-courtyard": {
+  "w": 3806,
+  "h": 2476,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "petra-ferro-winery/persp-panorama": {
+  "w": 4000,
+  "h": 1419,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "petra-ferro-winery/persp-walkway": {
+  "w": 3198,
+  "h": 2487,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "petra-ferro-winery/plan-ground": {
+  "w": 4000,
+  "h": 2458,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "petra-ferro-winery/plan-underground": {
+  "w": 4000,
+  "h": 2458,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "petra-ferro-winery/render-lounge": {
+  "w": 3387,
+  "h": 1908,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "petra-ferro-winery/render-production": {
+  "w": 3387,
+  "h": 1905,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "petra-ferro-winery/section-a": {
+  "w": 4000,
+  "h": 2378,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "petra-ferro-winery/section-b": {
+  "w": 4000,
+  "h": 1372,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "petra-ferro-winery/section-perspective": {
+  "w": 4000,
+  "h": 2107,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "petra-ferro-winery/site-plan": {
+  "w": 4000,
+  "h": 3887,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "petra-ferro-winery/structure-axon": {
+  "w": 1869,
+  "h": 2193,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "recreation-center/circulation": {
+  "w": 692,
+  "h": 1180,
+  "widths": []
+ },
+ "recreation-center/cover": {
+  "w": 1315,
+  "h": 953,
+  "widths": [
+   800
+  ]
+ },
+ "recreation-center/elevations": {
+  "w": 2144,
+  "h": 842,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "recreation-center/plans-1-2": {
+  "w": 2093,
+  "h": 970,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "recreation-center/plans-3-4": {
+  "w": 2093,
+  "h": 840,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "recreation-center/program": {
+  "w": 608,
+  "h": 1033,
+  "widths": []
+ },
+ "recreation-center/render-cafe": {
+  "w": 2326,
+  "h": 2325,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "recreation-center/render-court": {
+  "w": 2326,
+  "h": 2325,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "recreation-center/render-exterior": {
+  "w": 2327,
+  "h": 2325,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "recreation-center/render-section": {
+  "w": 2326,
+  "h": 2325,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "recreation-center/sections": {
+  "w": 2144,
+  "h": 989,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "recreation-center/side-elevation": {
+  "w": 2115,
+  "h": 582,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "recreation-center/site-plan": {
+  "w": 2580,
+  "h": 2283,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "recreation-center/street-elevation": {
+  "w": 2439,
+  "h": 602,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "rock-and-roll-hall-of-fame/axon": {
+  "w": 2986,
+  "h": 1517,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "rock-and-roll-hall-of-fame/cross-section": {
+  "w": 3117,
+  "h": 700,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "rock-and-roll-hall-of-fame/long-section": {
+  "w": 4000,
+  "h": 348,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "rock-and-roll-hall-of-fame/plan": {
+  "w": 4000,
+  "h": 864,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "rock-and-roll-hall-of-fame/plan-elevation": {
+  "w": 2010,
+  "h": 545,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "rock-and-roll-hall-of-fame/site-plan": {
+  "w": 2976,
+  "h": 2526,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "rock-and-roll-hall-of-fame/south-elevation": {
+  "w": 2010,
+  "h": 195,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "rock-and-roll-hall-of-fame/south-section": {
+  "w": 2976,
+  "h": 368,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "shenzhen-houhai-project-k/axon": {
+  "w": 1878,
+  "h": 1056,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "shenzhen-houhai-project-k/elevation": {
+  "w": 4000,
+  "h": 1799,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "shenzhen-houhai-project-k/visitor-center": {
+  "w": 4000,
+  "h": 2090,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "urban-housing-collective/board": {
+  "w": 2793,
+  "h": 1454,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "urban-housing-collective/cover": {
+  "w": 1495,
+  "h": 1161,
+  "widths": [
+   800
+  ]
+ },
+ "urban-housing-collective/plan": {
+  "w": 4000,
+  "h": 3001,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "urban-housing-collective/render": {
+  "w": 2561,
+  "h": 1430,
+  "widths": [
+   800,
+   1600
+  ]
+ },
+ "urban-housing-collective/section": {
+  "w": 4000,
+  "h": 3001,
+  "widths": [
+   800,
+   1600
+  ]
+ }
+}
