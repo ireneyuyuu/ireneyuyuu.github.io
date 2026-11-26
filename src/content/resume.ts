@@ -10,7 +10,7 @@ export const resume: Resume = {
   name: "Irene (Yuhan) Zhang",
   headline: "Architecture student, Syracuse University — design, visualization and data-driven research",
   summary:
-    "B.Arch candidate with a minor in AI in Business Applications, working across architectural design, visualization and business research. Internship experience at Tencent in Shenzhen, MAD Architects in Beijing and Shenzhen Keyuan Construction Group.",
+    "B.Arch candidate with a minor in AI in Business Applications, working across architectural design, visualization and business research. Internship experience at Tencent in Shenzhen, AANDA in New York, MAD Architects in Beijing and Shenzhen Keyuan Construction Group.",
   location: "Syracuse, New York · Shenzhen, China",
   emails: [
     { label: "School", address: "yzhan654@syr.edu" },
@@ -18,8 +18,7 @@ export const resume: Resume = {
   ],
   /** Left empty so the number isn't on the public website. Type a number between the quotes to show it again. */
   phone: "",
-  /** Add your live site address once deployed. */
-  portfolioUrl: "",
+  portfolioUrl: "https://ireneyuyuu.github.io",
   linkedin: "https://www.linkedin.com/in/yuhanzhangirene/",
 
   education: [
@@ -52,13 +51,14 @@ export const resume: Resume = {
       ],
     },
     {
-      organization: "Syracuse University School of Architecture",
-      role: "Teaching Assistant",
-      location: "Syracuse, New York",
-      dates: "Aug – Dec 2025",
+      organization: "AANDA",
+      role: "Architectural Design Intern",
+      kind: "Practicum",
+      location: "New York, New York",
+      dates: "Nov – Dec 2026",
       points: [
-        "Led 50+ one-on-one tutoring sessions in digital modeling, drawing and visualization for architecture students.",
-        "Coordinated with instructors to support design workshops and troubleshoot student projects.",
+        "Model residential millwork in Rhino 7 from 2D construction drawings, studying dimensions and connections to interior walls to support elevation, isometric and perspective views.",
+        "Participate in site visits and project check-ins for a Manhattan apartment renovation, studying Murphy beds, sliding doors, finishes and design decisions within a limited budget.",
       ],
     },
     {
@@ -70,6 +70,16 @@ export const resume: Resume = {
         "Wrote, edited and published bilingual WeChat content and standardized the layout of project and award announcements.",
         "Prepared bilingual press materials and presentations for the Fenix Museum and the Venice Architecture Biennale; edited forum videos and created closed captions for publication.",
         "Produced diagrams and refined renderings for the Shenzhen ByteDance Headquarters competition and the Shaoxing Cultural Arts Center project.",
+      ],
+    },
+    {
+      organization: "Syracuse University School of Architecture",
+      role: "Teaching Assistant",
+      location: "Syracuse, New York",
+      dates: "Aug – Dec 2025",
+      points: [
+        "Led 50+ one-on-one tutoring sessions in digital modeling, drawing and visualization for architecture students.",
+        "Coordinated with instructors to support design workshops and troubleshoot student projects.",
       ],
     },
     {
