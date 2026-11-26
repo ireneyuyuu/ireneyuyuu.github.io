@@ -27,6 +27,13 @@ fi
 echo "3/4  Fetching anything changed on GitHub since last time…"
 git pull --rebase -q
 
+if [ -z "$(git log --oneline '@{u}..HEAD')" ]; then
+  echo ""
+  echo "✓ Nothing new to publish: the website is already up to date."
+  echo "  Website:  https://ireneyuyuu.github.io/"
+  exit 0
+fi
+
 echo "4/4  Uploading to GitHub…"
 git push -q
 
